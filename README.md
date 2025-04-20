@@ -4,7 +4,7 @@ Submitted by: **Amshu Wagle**
 
 This web app: **This is a web application that allows users to create, view, edit, and delete custom spaceship crew members.**
 
-Time spent: **X** hours spent in total
+Time spent: **16** hours spent in total
 
 ## Required Features
 
