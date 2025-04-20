@@ -1,0 +1,133 @@
+.detail-page {
+    max-width: 800px;
+    margin: 0 auto;
+}  
+
+.detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+  
+.detail-header h2 {
+    font-size: 1.75rem;
+    margin: 0;
+}
+  
+.back-link {
+    color: var(--dark-gray);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+  
+.back-link:hover {
+    color: var(--primary-color);
+}
+  
+.crewmate-detail-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+    padding: 2rem;
+}
+  
+.detail-section {
+    margin-bottom: 2rem;
+}
+  
+.detail-section h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--light-gray);
+}
+  
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+  
+.detail-item {
+    display: flex;
+    flex-direction: column;
+}
+  
+.detail-label {
+    font-size: 0.875rem;
+    color: var(--dark-gray);
+    margin-bottom: 0.25rem;
+}
+  
+.detail-value {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+  
+.attributes-display {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+  
+.attribute-bar {
+    display: flex;
+    flex-direction: column;
+}
+  
+.attribute-name {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+  
+.attribute-progress {
+    height: 24px;
+    background-color: var(--light-gray);
+    border-radius: 4px;
+    overflow: hidden;
+}
+  
+.progress-fill {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+  
+.progress-fill.strength {
+    background-color: #ff006e;
+}
+  
+.progress-fill.intelligence {
+    background-color: #3a86ff;
+}
+  
+.progress-fill.speed {
+    background-color: #38b000;
+}
+  
+.detail-actions {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.edit-button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+}
+  
+.edit-button:hover {
+    background-color: #2a75e6;
+    text-decoration: none;
+}

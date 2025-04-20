@@ -1,0 +1,19 @@
+.create-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+  
+.create-page h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+  
+.create-page p {
+    color: var(--dark-gray);
+    margin-bottom: 2rem;
+}
+  
+.error-message {
+    margin-bottom: 1.5rem;
+}

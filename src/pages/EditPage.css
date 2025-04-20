@@ -1,0 +1,38 @@
+.edit-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+  
+.edit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+  
+.edit-header h2 {
+    font-size: 1.75rem;
+    margin: 0;
+}
+  
+.back-link {
+    color: var(--dark-gray);
+    text-decoration: none;
+}
+  
+.back-link:hover {
+    color: var(--primary-color);
+}
+  
+.error-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+}
+  
+.error-container p {
+    color: var(--error-color);
+    margin-bottom: 1.5rem;
+}
